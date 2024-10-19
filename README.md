@@ -99,6 +99,7 @@ Standardized formats for consistency across all columns.
 ```python
 sales['product_name'] = sales['product_name'].str.strip()
 ```
+![Alt text](sd_seven.png)
 
 - **Check for missing values in the dataset. Which columns contain null or missing values? If any, how would you handle them?**
 The data had no missing values but here is how I would have handled any missing values;
@@ -119,6 +120,8 @@ The method of handling missing values depends on the context and importance of t
 #Checking for null values
 sales.isnull().sum()
 ```
+![Alt text](sd_eight.png)
+
 Convert the order_date and delivery_date columns to datetime format.
 Create a new column called delivery_time_days that calculates the difference between delivery_date and order_date in days.
 
@@ -132,16 +135,22 @@ paypal_orders = sales[sales['payment_type'] == 'PayPal']
 
 paypal_orders
 ```
+
+![Alt text](sd_ten.png)
+
 - **Extract all orders placed by customers in the UK.**
 ```python
 UK_orders  = sales[sales['country'] == 'UK']
 UK_orders
 ```
+![Alt text](sd_eleven.png)
+
 - **Find all orders that were shipped after 10 days (i.e., where the difference between delivery_date and order_date is more than 10 days).**
 ```python
 shipped_after_10_days = sales[sales['delivery_time_days'] > 10]
 shipped_after_10_days
 ```
+![Alt text](sd_twelve.png)
 
 - **Select all orders that were either cancelled or returned.**
 ```python
@@ -149,6 +158,7 @@ cancelled_or_returned_orders = sales[sales['status'].isin(['Cancelled','Returned
 cancelled_or_returned_orders
 ```
 
+![Alt text](sd_thirteen.png)
 
 ### 5. Aggregation and Grouping
 - **Calculate the total revenue for each product category.**
