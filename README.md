@@ -38,6 +38,14 @@ An additional dataset was merged, containing customer demographics with columns:
 Explored the dataset to get an overview of its structure and the relationships between variables.
 Generated summary statistics such as total orders, revenue, unique categories, and customer count.
 
+**Importing the needed Libraries**
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sn
+```
+
 **Reading in the dataset**
 ```python
 sales = pd.read_csv(r"C:\Users\User\Downloads\ecommerce_sales.csv")
