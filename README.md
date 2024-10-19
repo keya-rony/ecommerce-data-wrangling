@@ -122,8 +122,23 @@ sales.isnull().sum()
 ```
 ![Alt text](sd_eight.png)
 
-Convert the order_date and delivery_date columns to datetime format.
-Create a new column called delivery_time_days that calculates the difference between delivery_date and order_date in days.
+- **Convert the order_date and delivery_date columns to datetime format.**
+
+```python
+sales['order_date'] = pd.to_datetime(sales['order_date'])
+sales['delivery_date'] = pd.to_datetime(sales['delivery_date'], errors='coerce')
+
+#checking the datatypes after conversion
+sales.dtypes
+```
+- **Create a new column called delivery_time_days that calculates the difference between delivery_date and order_date in days.**
+
+```python
+sales['delivery_time_days'] = (sales['delivery_date'] - sales['order_date']).dt.days
+
+sales.head()
+```
+
 
 
 
