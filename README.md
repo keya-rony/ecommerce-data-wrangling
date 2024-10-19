@@ -292,6 +292,9 @@ plt.xlabel('Order Value (Total Revenue)')
 plt.ylabel('Frequency')
 plt.show()
 ```
+
+![Alt text](viz_ord_dist.png)
+
 - **Create a bar chart showing total revenue by product category.**
 ```python
 product_revenue = sales.groupby('product_category')['revenue'].sum().reset_index()
@@ -304,6 +307,9 @@ plt.ylabel('Total Revenue')
 plt.xticks(rotation=45)
 plt.show()
 ```
+
+![Alt text](viz_prod_cat.png)
+
 - **Create a time series line plot showing the number of orders placed each month.**
 ```python
 # Ensure 'order_date' is in datetime format
@@ -325,6 +331,10 @@ plt.ylabel('Number of Orders')
 plt.xticks(rotation=45)
 plt.show()
 ```
+
+![Alt text](viz_time_series.png)
+
+
 - **Create a horizontal bar plot showing the number of orders placed by country.**
 
 ```python
@@ -336,6 +346,8 @@ plt.xlabel('Number of Orders')
 plt.xticks(rotation=0)
 plt.show()
 ```
+![Alt text](viz_ord_country.png)
+
 
 ### Key Findings
 - **Total Revenue:** The e-commerce platform generated over $1.5M in revenue across 500 transactions.
@@ -343,3 +355,11 @@ plt.show()
 - **Customer Insights:** Most frequent buyers came from the USA and the UK, with distinct purchasing trends by city and age group.
 - **Order Status:** Around 42% of orders were shipped successfully, while others were pending, canceled, or returned.
 - **Seasonality:** Sales peaked during key holiday seasons, especially in December.
+
+### Tools Used
+**Python:** Data cleaning, wrangling, and analysis using the pandas library.
+**pandas:** For DataFrame operations, including filtering, grouping, and merging datasets.
+Visualizations: Using **matplotlib** and **seaborn** to create charts.
+
+### Conclusion
+This project demonstrates my ability to handle real-world data using Python and pandas, covering the entire data pipeline from initial exploration to advanced analysis and visualization. It showcases critical data analysis skills required for business insights and decision-making.
