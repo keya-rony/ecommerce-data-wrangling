@@ -219,6 +219,10 @@ sales.loc[sales['product_category'] == 'Accessories', 'price'] = sales['price'] 
 
 sales
 ```
+
+![Alt text](5b.png)
+
+
 - **Merge another DataFrame that contains customer demographics (columns like customer_id, age, gender, city).**
 ```python
 # reading the customer demographics data
@@ -228,7 +232,9 @@ customer_demographics = pd.read_csv(r"C:\Users\User\Downloads\customer_demograph
 new_sales_df = sales.merge(customer_demographics,on='customer_id',how='left')
 new_sales_df.head()
 ```
+![Alt text](5c.png)
 
+![Alt text](5d.png)
 
 ### 6. Advanced Analysis
 
@@ -238,12 +244,15 @@ pivot_table = sales.pivot_table(values='revenue', index='country', columns='paym
 
 print(pivot_table)
 ```
+![Alt text](6a.png)
 
 - **Identify the most popular product category by the total quantity sold.**
 ```python
 most_popular_category  = sales.groupby('product_category')['quantity'].sum().reset_index().nlargest(1,'quantity')
 most_popular_category
 ```
+![Alt text](6b.png)
+
 - **Create a new column that categorizes orders as “High Value” if the total order value (price * quantity) is greater than 500, otherwise categorize them as “Low Value”.**
 ```python
 sales['order_value'] = sales['quantity']*sales['price']
@@ -253,6 +262,9 @@ sales['order_category'] = 'Low Value'
 sales.loc[sales['order_value'] > 500,'order_category'] = 'High Value'
 sales.head()
 ```
+![Alt text](6c.png)
+
+
 - **Find the customer who spent the most on orders and calculate the total amount spent by that customer.**
 ```python
 # Group by 'customer_id' and calculate the total amount spent per customer
@@ -264,7 +276,7 @@ top_customer = customer_spending.loc[customer_spending['revenue'].idxmax()]
 print("Customer who spent the most:", top_customer['customer_id'])
 print("Total amount spent by the customer:", top_customer['revenue'])
 ```
-
+![Alt text](6e.png)
 
 ### 7. Visualization
 
