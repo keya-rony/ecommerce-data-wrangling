@@ -48,28 +48,39 @@ sales = pd.read_csv(r"C:\Users\User\Downloads\ecommerce_sales.csv")
 sales.head()
 ```
 
+![Alt text](sd_one.png)
+
 - **How many orders are there in the dataset?**
 ```python
 total_orders = sales['order_id'].nunique()
 print('total number of orders:',total_orders)
 ```
+![Alt text](sd_two.png)
+
 - **What are the unique product categories in the dataset?**
 ```python
 unique_categories = sales['product_category'].unique()
 print("Unique product categories:", unique_categories)
 ```
+
+![Alt text](sd_three.png)
+
 - **Calculate the total revenue (price * quantity) for all orders combined.**
 ```python
 sales['revenue'] = sales['price'] * sales['quantity']
 total_revenue = sales['revenue'].sum()
 print("Total Revenue:",total_revenue)
 ```
+![Alt text](sd_four.png)
+
 - **How many orders are in the "Shipped" status?**
 ```python
 orders_shipped = sales[sales['status'] == 'Shipped']['order_id'].nunique()
 
 print('Number of Shipped orders:',orders_shipped)
 ```
+
+![Alt text](sd_five.png)
 - **How many unique customers placed orders?**
 ```python
 unique_customers = sales['customer_id'].nunique()
@@ -77,7 +88,7 @@ unique_customers = sales['customer_id'].nunique()
 print("Number of Unique Customers:", unique_customers)
 ```
 
-
+![Alt text](sd_six.png)
 
 ### 2. Data Cleaning
 Handled duplicate customer_id values by retaining only the most recent order for each customer.
