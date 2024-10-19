@@ -136,21 +136,21 @@ paypal_orders = sales[sales['payment_type'] == 'PayPal']
 paypal_orders
 ```
 
-![Alt text](sd_ten.png)
+![Alt text](sd_eleven.png)
 
 - **Extract all orders placed by customers in the UK.**
 ```python
 UK_orders  = sales[sales['country'] == 'UK']
 UK_orders
 ```
-![Alt text](sd_eleven.png)
+![Alt text](sd_twelve.png)
 
 - **Find all orders that were shipped after 10 days (i.e., where the difference between delivery_date and order_date is more than 10 days).**
 ```python
 shipped_after_10_days = sales[sales['delivery_time_days'] > 10]
 shipped_after_10_days
 ```
-![Alt text](sd_twelve.png)
+![Alt text](sd_thirteen.png)
 
 - **Select all orders that were either cancelled or returned.**
 ```python
