@@ -158,7 +158,7 @@ cancelled_or_returned_orders = sales[sales['status'].isin(['Cancelled','Returned
 cancelled_or_returned_orders
 ```
 
-![Alt text](sd_thirteen.png)
+![Alt text](sd_ret.png)
 
 ### 5. Aggregation and Grouping
 - **Calculate the total revenue for each product category.**
@@ -167,23 +167,31 @@ cancelled_or_returned_orders
 product_category_sales = sales.groupby('product_category')['revenue'].sum().reset_index()
 product_category_sales
 ```
+![Alt text](sd_fifteen.png)
+
 - **Find the average price per product category.**
 
 ```python
 avg_price_per_category = sales.groupby('product_category')['price'].mean().reset_index()
 avg_price_per_category
 ```
+![Alt text](sd_sixteen.png)
+
 - **How many orders were placed from each country?**
 
 ```python
 orders_by_country = sales.groupby('country')['order_id'].count().reset_index()
 orders_by_country
 ```
+
+![Alt text](sd_seventeen.png)
+
 - **Group the data by payment_type and find the total quantity ordered for each payment type.**
 ```python
 qty_by_payment_type = sales.groupby('payment_type')['quantity'].sum().reset_index()
 qty_by_payment_type
 ```
+![Alt text](sd_eighteen.png)
 
 
 ### 6. Data Wrangling
