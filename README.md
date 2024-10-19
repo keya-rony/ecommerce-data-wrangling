@@ -160,7 +160,7 @@ cancelled_or_returned_orders
 
 ![Alt text](sd_ret.png)
 
-### 5. Aggregation and Grouping
+### 4. Aggregation and Grouping
 - **Calculate the total revenue for each product category.**
 
 ```python
@@ -194,7 +194,7 @@ qty_by_payment_type
 ![Alt text](sd_eighteen.png)
 
 
-### 6. Data Wrangling
+### 5. Data Wrangling
 - **There are some duplicate customer_id values (customers who placed multiple orders). Drop any duplicates based on the customer_id and keep only the most recent order based on the order_date.**
 ```python
 # Sort by 'Customer_Id' and 'order_date' in descending order to get the most recent orders first
@@ -230,7 +230,7 @@ new_sales_df.head()
 ```
 
 
-### 7. Advanced Analysis
+### 6. Advanced Analysis
 
 - **Create a pivot table that shows the total revenue by country and payment_type.**
 ```python
@@ -266,7 +266,7 @@ print("Total amount spent by the customer:", top_customer['revenue'])
 ```
 
 
-### 8. Visualization
+### 7. Visualization
 
 Created visualizations (using matplotlib or seaborn) to illustrate findings such as sales trends, product performance, and customer demographics.
 
