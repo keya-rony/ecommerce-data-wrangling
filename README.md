@@ -131,6 +131,8 @@ sales['delivery_date'] = pd.to_datetime(sales['delivery_date'], errors='coerce')
 #checking the datatypes after conversion
 sales.dtypes
 ```
+![Alt text](2type.png)
+
 - **Create a new column called delivery_time_days that calculates the difference between delivery_date and order_date in days.**
 
 ```python
@@ -139,7 +141,7 @@ sales['delivery_time_days'] = (sales['delivery_date'] - sales['order_date']).dt.
 sales.head()
 ```
 
-
+![Alt text](2dt.png)
 
 
 ### 3. Filtering and Subsetting Data
