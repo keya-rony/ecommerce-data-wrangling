@@ -1,0 +1,501 @@
+order_id,customer_id,product_id,product_name,product_category,price,quantity,order_date,delivery_date,status,payment_type,country
+1,1039,P103,Desk,Furniture,443,2,2023-10-14 01:55:21,2023-10-25 01:55:21,Shipped,Debit Card,Canada
+2,1085,P102,Tablet,Furniture,373,2,2023-03-05 05:17:30,2023-03-07 05:17:30,Pending,Cash,Australia
+3,1041,P106,Mouse,Accessories,1428,2,2023-02-23 10:13:09,2023-03-04 10:13:09,Returned,Credit Card,Canada
+4,1047,P101,Keyboard,Accessories,943,4,2023-10-19 14:22:18,2023-10-24 14:22:18,Shipped,Debit Card,France
+5,1008,P106,Desk,Electronics,356,5,2023-07-06 03:33:28,2023-07-19 03:33:28,Cancelled,Debit Card,USA
+6,1087,P107,Desk,Electronics,677,2,2023-04-05 01:53:31,2023-04-17 01:53:31,Cancelled,PayPal,UK
+7,1053,P105,Desk,Electronics,377,3,2023-06-21 06:46:32,2023-07-02 06:46:32,Returned,PayPal,Australia
+8,1029,P103,Monitor,Electronics,1990,5,2023-04-04 18:52:42,2023-04-14 18:52:42,Shipped,Cash,Germany
+9,1033,P101,Mouse,Accessories,71,2,2023-10-18 06:11:14,2023-10-28 06:11:14,Pending,PayPal,UK
+10,1010,P110,Keyboard,Electronics,395,5,2023-08-18 12:46:52,2023-08-25 12:46:52,Pending,PayPal,USA
+11,1051,P102,Headphones,Accessories,988,5,2023-03-09 01:39:31,2023-03-14 01:39:31,Shipped,PayPal,USA
+12,1088,P101,Headphones,Accessories,1336,5,2023-09-06 04:09:04,2023-09-10 04:09:04,Returned,Debit Card,USA
+13,1078,P102,Mouse,Accessories,965,4,2023-12-20 19:46:44,2023-12-22 19:46:44,Returned,Cash,Canada
+14,1021,P102,Laptop,Furniture,274,2,2023-11-08 16:29:56,2023-11-20 16:29:56,Cancelled,Cash,UK
+15,1076,P108,Phone,Electronics,1815,5,2023-04-15 05:48:20,2023-04-21 05:48:20,Shipped,Cash,Australia
+16,1035,P103,Headphones,Furniture,1288,3,2023-03-15 04:58:02,2023-03-25 04:58:02,Cancelled,Cash,USA
+17,1081,P104,Camera,Accessories,494,5,2023-04-09 13:54:53,2023-04-18 13:54:53,Returned,PayPal,Canada
+18,1091,P108,Mouse,Furniture,1409,4,2023-05-24 16:18:05,2023-05-28 16:18:05,Pending,Debit Card,Germany
+19,1045,P108,Headphones,Furniture,1354,5,2023-12-19 01:48:47,2023-12-28 01:48:47,Cancelled,PayPal,France
+20,1096,P103,Mouse,Furniture,1042,4,2023-01-31 21:40:57,2023-02-13 21:40:57,Returned,Credit Card,USA
+21,1100,P102,Tablet,Accessories,585,3,2023-08-16 04:34:42,2023-08-21 04:34:42,Pending,PayPal,UK
+22,1095,P108,Keyboard,Furniture,1806,3,2023-04-17 10:08:15,2023-04-21 10:08:15,Cancelled,PayPal,Germany
+23,1080,P109,Mouse,Furniture,1199,2,2023-07-22 03:10:48,2023-08-02 03:10:48,Cancelled,Credit Card,Canada
+24,1043,P101,Desk,Furniture,1816,3,2023-06-14 00:11:04,2023-06-20 00:11:04,Returned,Debit Card,France
+25,1007,P109,Tablet,Furniture,808,4,2023-02-27 14:13:55,2023-03-13 14:13:55,Cancelled,Debit Card,USA
+26,1097,P104,Headphones,Accessories,255,1,2023-11-20 21:33:35,2023-12-02 21:33:35,Cancelled,Credit Card,France
+27,1022,P107,Mouse,Furniture,975,5,2023-10-25 14:52:24,2023-11-01 14:52:24,Cancelled,PayPal,Germany
+28,1085,P109,Monitor,Accessories,1274,3,2023-07-08 12:02:30,2023-07-20 12:02:30,Pending,PayPal,Germany
+29,1073,P108,Camera,Accessories,1864,1,2023-09-14 09:02:25,2023-09-20 09:02:25,Pending,Credit Card,UK
+30,1072,P103,Tablet,Accessories,261,5,2023-07-02 17:06:28,2023-07-14 17:06:28,Shipped,Debit Card,Canada
+31,1070,P103,Laptop,Electronics,891,3,2023-05-02 16:13:43,2023-05-12 16:13:43,Returned,Cash,UK
+32,1025,P101,Laptop,Electronics,382,5,2023-11-10 14:22:53,2023-11-20 14:22:53,Returned,PayPal,Australia
+33,1003,P101,Monitor,Accessories,763,1,2023-11-07 00:11:36,2023-11-10 00:11:36,Pending,Cash,USA
+34,1017,P109,Laptop,Electronics,1765,5,2023-09-26 17:00:10,2023-10-10 17:00:10,Shipped,Cash,Australia
+35,1066,P109,Phone,Furniture,1025,2,2023-03-09 03:35:15,2023-03-23 03:35:15,Cancelled,Debit Card,USA
+36,1080,P103,Tablet,Furniture,1685,3,2023-03-24 10:51:34,2023-03-27 10:51:34,Returned,Credit Card,USA
+37,1037,P108,Desk,Electronics,1058,5,2023-07-01 06:54:21,2023-07-09 06:54:21,Cancelled,Cash,Canada
+38,1014,P110,Keyboard,Accessories,1337,3,2023-01-30 23:28:41,2023-02-14 23:28:41,Shipped,Cash,Canada
+39,1089,P101,Tablet,Accessories,1644,1,2023-05-03 18:19:09,2023-05-07 18:19:09,Shipped,Credit Card,Germany
+40,1027,P101,Phone,Electronics,705,2,2023-10-12 14:09:21,2023-10-17 14:09:21,Returned,Debit Card,UK
+41,1014,P107,Desk,Accessories,112,2,2023-11-20 09:20:01,2023-11-28 09:20:01,Returned,PayPal,France
+42,1056,P106,Laptop,Electronics,1835,5,2023-07-22 00:50:55,2023-07-30 00:50:55,Pending,PayPal,France
+43,1061,P110,Keyboard,Furniture,1335,5,2023-03-25 19:19:37,2023-03-28 19:19:37,Cancelled,PayPal,France
+44,1025,P104,Tablet,Electronics,302,3,2023-08-23 12:54:31,2023-09-05 12:54:31,Shipped,Cash,Germany
+45,1086,P108,Camera,Furniture,1249,5,2023-09-07 13:09:00,2023-09-11 13:09:00,Returned,Debit Card,France
+46,1073,P105,Phone,Accessories,1034,1,2023-08-24 13:10:17,2023-09-07 13:10:17,Shipped,Cash,USA
+47,1018,P101,Monitor,Accessories,1208,4,2023-08-01 05:56:36,2023-08-15 05:56:36,Cancelled,PayPal,Canada
+48,1042,P105,Phone,Furniture,1781,5,2023-08-28 23:38:27,2023-08-31 23:38:27,Returned,PayPal,USA
+49,1095,P106,Mouse,Accessories,1181,3,2023-04-07 05:26:26,2023-04-19 05:26:26,Shipped,PayPal,Germany
+50,1043,P108,Mouse,Furniture,772,4,2023-09-07 13:42:56,2023-09-12 13:42:56,Cancelled,Debit Card,UK
+51,1092,P105,Monitor,Accessories,1265,3,2023-05-09 14:02:29,2023-05-15 14:02:29,Shipped,PayPal,France
+52,1007,P109,Monitor,Furniture,206,2,2023-11-27 19:28:49,2023-12-06 19:28:49,Returned,Credit Card,Germany
+53,1076,P102,Desk,Electronics,644,3,2023-03-23 08:27:11,2023-03-29 08:27:11,Cancelled,Debit Card,France
+54,1066,P102,Camera,Electronics,1769,2,2023-11-01 22:29:03,2023-11-08 22:29:03,Shipped,Credit Card,USA
+55,1043,P104,Camera,Furniture,986,3,2023-07-29 16:05:47,2023-08-07 16:05:47,Pending,Debit Card,Germany
+56,1073,P105,Mouse,Furniture,958,2,2023-06-28 20:50:51,2023-07-08 20:50:51,Pending,Debit Card,UK
+57,1028,P104,Monitor,Accessories,664,2,2023-01-16 19:54:26,2023-01-29 19:54:26,Cancelled,Cash,UK
+58,1031,P110,Chair,Accessories,1217,4,2023-07-21 14:07:35,2023-07-23 14:07:35,Pending,Cash,Germany
+59,1099,P106,Camera,Furniture,1803,4,2023-02-25 09:17:14,2023-03-01 09:17:14,Returned,Credit Card,France
+60,1075,P110,Keyboard,Accessories,1160,1,2023-05-27 00:34:11,2023-05-30 00:34:11,Pending,Credit Card,France
+61,1044,P108,Phone,Furniture,56,1,2023-06-02 06:30:52,2023-06-07 06:30:52,Pending,Debit Card,France
+62,1016,P107,Mouse,Furniture,862,2,2023-06-24 03:32:51,2023-07-09 03:32:51,Pending,Debit Card,France
+63,1062,P105,Chair,Furniture,603,2,2023-06-06 13:54:18,2023-06-13 13:54:18,Cancelled,Debit Card,Australia
+64,1089,P109,Laptop,Furniture,860,3,2023-06-17 14:29:04,2023-06-27 14:29:04,Returned,Debit Card,Germany
+65,1066,P104,Headphones,Accessories,1280,5,2023-03-25 02:42:00,2023-04-05 02:42:00,Cancelled,Credit Card,Germany
+66,1096,P105,Laptop,Accessories,1546,1,2023-08-14 04:29:49,2023-08-22 04:29:49,Pending,Cash,USA
+67,1098,P101,Mouse,Furniture,849,1,2023-09-29 07:40:56,2023-10-09 07:40:56,Shipped,Cash,USA
+68,1030,P109,Monitor,Furniture,95,3,2023-06-07 22:54:56,2023-06-16 22:54:56,Pending,Credit Card,UK
+69,1032,P110,Monitor,Accessories,430,5,2023-01-31 05:20:57,2023-02-10 05:20:57,Returned,PayPal,USA
+70,1031,P104,Tablet,Electronics,433,5,2023-12-04 05:50:22,2023-12-16 05:50:22,Cancelled,PayPal,USA
+71,1083,P104,Desk,Accessories,681,5,2023-03-02 07:22:49,2023-03-07 07:22:49,Pending,Debit Card,Canada
+72,1067,P101,Headphones,Electronics,1663,1,2023-12-16 16:14:59,2023-12-20 16:14:59,Shipped,PayPal,France
+73,1027,P102,Keyboard,Furniture,1648,3,2023-02-21 20:31:40,2023-03-04 20:31:40,Returned,PayPal,USA
+74,1000,P108,Keyboard,Accessories,1047,1,2023-08-09 03:45:49,2023-08-23 03:45:49,Cancelled,Cash,Canada
+75,1042,P105,Laptop,Furniture,922,5,2023-10-03 18:43:34,2023-10-09 18:43:34,Cancelled,PayPal,Germany
+76,1021,P109,Headphones,Accessories,132,2,2023-07-02 20:51:38,2023-07-10 20:51:38,Returned,Debit Card,Australia
+77,1062,P103,Phone,Accessories,1570,1,2023-08-26 09:14:02,2023-09-04 09:14:02,Shipped,Cash,USA
+78,1017,P108,Tablet,Accessories,1781,2,2023-01-08 02:49:05,2023-01-11 02:49:05,Pending,Credit Card,Canada
+79,1078,P104,Laptop,Accessories,128,2,2023-06-14 09:48:35,2023-06-27 09:48:35,Shipped,Cash,Germany
+80,1035,P105,Monitor,Electronics,1615,1,2023-03-30 00:11:11,2023-04-09 00:11:11,Cancelled,Cash,Australia
+81,1037,P103,Keyboard,Furniture,113,4,2023-10-04 05:55:45,2023-10-09 05:55:45,Pending,Cash,Canada
+82,1081,P102,Chair,Accessories,1564,3,2023-08-17 14:18:56,2023-08-27 14:18:56,Returned,Credit Card,UK
+83,1071,P104,Desk,Accessories,170,2,2023-05-24 00:24:51,2023-06-08 00:24:51,Shipped,Credit Card,Australia
+84,1064,P101,Laptop,Electronics,794,3,2023-10-19 18:10:22,2023-10-23 18:10:22,Cancelled,PayPal,France
+85,1063,P103,Tablet,Accessories,1641,4,2023-12-20 11:19:06,2024-01-04 11:19:06,Pending,Debit Card,Australia
+86,1034,P102,Laptop,Furniture,1895,5,2023-11-14 07:43:36,2023-11-29 07:43:36,Returned,Credit Card,France
+87,1002,P104,Laptop,Accessories,330,2,2023-05-23 13:24:13,2023-06-01 13:24:13,Returned,Cash,USA
+88,1068,P103,Monitor,Electronics,466,3,2023-07-09 16:35:20,2023-07-11 16:35:20,Returned,Cash,Canada
+89,1033,P106,Keyboard,Electronics,566,3,2023-12-02 06:46:07,2023-12-11 06:46:07,Returned,Cash,Australia
+90,1086,P103,Camera,Furniture,629,4,2023-06-27 03:28:03,2023-07-09 03:28:03,Cancelled,Debit Card,Canada
+91,1049,P106,Camera,Accessories,1976,2,2023-08-06 22:29:08,2023-08-12 22:29:08,Pending,Cash,Canada
+92,1073,P110,Camera,Accessories,1122,2,2023-11-01 05:25:23,2023-11-06 05:25:23,Cancelled,Debit Card,Canada
+93,1051,P110,Chair,Furniture,1068,2,2023-10-17 02:58:09,2023-10-25 02:58:09,Returned,PayPal,Australia
+94,1007,P110,Camera,Furniture,1474,4,2023-01-21 20:32:27,2023-02-01 20:32:27,Pending,Cash,UK
+95,1096,P109,Laptop,Furniture,988,2,2023-12-10 05:51:44,2023-12-18 05:51:44,Returned,PayPal,France
+96,1059,P108,Camera,Furniture,215,5,2023-01-17 08:38:26,2023-01-21 08:38:26,Shipped,Credit Card,USA
+97,1089,P104,Laptop,Furniture,1061,3,2023-05-13 09:54:35,2023-05-27 09:54:35,Cancelled,PayPal,France
+98,1008,P101,Laptop,Furniture,1121,2,2023-05-07 14:51:59,2023-05-14 14:51:59,Pending,Cash,Canada
+99,1081,P101,Camera,Accessories,1753,3,2023-07-16 05:14:29,2023-07-22 05:14:29,Pending,Debit Card,USA
+100,1029,P108,Headphones,Furniture,1517,4,2023-10-19 07:25:01,2023-10-23 07:25:01,Returned,Cash,UK
+101,1039,P103,Laptop,Furniture,1967,3,2023-02-08 00:38:47,2023-02-11 00:38:47,Cancelled,PayPal,Canada
+102,1055,P104,Monitor,Furniture,1161,4,2023-06-20 20:49:56,2023-06-29 20:49:56,Returned,PayPal,Canada
+103,1097,P102,Desk,Accessories,903,4,2023-02-23 00:45:57,2023-03-08 00:45:57,Cancelled,PayPal,UK
+104,1050,P104,Phone,Furniture,778,5,2023-10-11 16:34:18,2023-10-25 16:34:18,Shipped,PayPal,Germany
+105,1091,P101,Headphones,Accessories,597,4,2023-07-13 12:47:28,2023-07-26 12:47:28,Shipped,Credit Card,UK
+106,1047,P103,Keyboard,Accessories,1386,5,2023-08-15 01:59:01,2023-08-17 01:59:01,Returned,Debit Card,Australia
+107,1005,P103,Keyboard,Furniture,237,4,2023-08-01 01:13:06,2023-08-06 01:13:06,Cancelled,Debit Card,USA
+108,1020,P102,Laptop,Electronics,792,5,2023-05-15 01:53:47,2023-05-30 01:53:47,Returned,Cash,USA
+109,1008,P107,Desk,Accessories,1056,3,2023-05-19 11:14:30,2023-05-30 11:14:30,Returned,PayPal,France
+110,1088,P101,Headphones,Furniture,793,1,2023-05-26 14:28:51,2023-06-01 14:28:51,Shipped,Debit Card,Germany
+111,1079,P110,Keyboard,Electronics,1626,3,2023-08-22 02:18:59,2023-09-04 02:18:59,Returned,Cash,Germany
+112,1014,P110,Headphones,Furniture,1385,4,2023-08-30 15:48:06,2023-09-08 15:48:06,Shipped,Debit Card,Germany
+113,1042,P110,Keyboard,Furniture,857,3,2023-05-13 09:26:58,2023-05-25 09:26:58,Shipped,Credit Card,Germany
+114,1015,P103,Tablet,Accessories,738,4,2023-05-16 01:23:00,2023-05-19 01:23:00,Cancelled,Debit Card,Canada
+115,1001,P109,Desk,Electronics,1392,5,2023-08-19 13:16:35,2023-09-02 13:16:35,Pending,PayPal,Australia
+116,1053,P102,Monitor,Furniture,490,2,2023-10-31 12:03:42,2023-11-14 12:03:42,Returned,PayPal,Germany
+117,1009,P101,Laptop,Furniture,471,5,2023-03-14 03:41:55,2023-03-27 03:41:55,Shipped,Credit Card,Canada
+118,1091,P108,Camera,Electronics,388,4,2023-07-31 21:43:47,2023-08-12 21:43:47,Shipped,PayPal,Germany
+119,1058,P109,Laptop,Furniture,821,2,2023-06-12 14:07:38,2023-06-23 14:07:38,Pending,Cash,Australia
+120,1085,P102,Headphones,Furniture,937,2,2023-11-24 17:34:44,2023-12-08 17:34:44,Returned,PayPal,UK
+121,1084,P106,Monitor,Furniture,1722,3,2023-11-11 01:58:56,2023-11-20 01:58:56,Pending,Cash,France
+122,1022,P105,Phone,Accessories,553,5,2023-03-06 02:01:40,2023-03-09 02:01:40,Pending,Cash,USA
+123,1071,P109,Phone,Furniture,443,4,2023-08-06 18:45:24,2023-08-10 18:45:24,Pending,PayPal,Australia
+124,1058,P105,Phone,Accessories,1274,1,2023-11-19 22:23:20,2023-11-22 22:23:20,Shipped,Credit Card,UK
+125,1091,P103,Chair,Furniture,900,3,2023-08-18 10:45:30,2023-08-20 10:45:30,Returned,PayPal,UK
+126,1043,P106,Tablet,Electronics,1852,5,2023-08-16 01:14:05,2023-08-25 01:14:05,Pending,Cash,UK
+127,1085,P102,Camera,Furniture,837,4,2023-10-25 22:47:33,2023-11-04 22:47:33,Shipped,Cash,Germany
+128,1040,P108,Desk,Electronics,446,5,2023-08-09 03:32:08,2023-08-12 03:32:08,Pending,Credit Card,USA
+129,1033,P106,Chair,Accessories,1239,5,2023-09-02 12:22:12,2023-09-16 12:22:12,Shipped,PayPal,USA
+130,1039,P107,Chair,Accessories,1197,3,2023-08-29 06:45:17,2023-09-12 06:45:17,Shipped,Credit Card,Germany
+131,1059,P104,Camera,Electronics,1879,4,2023-07-11 11:52:16,2023-07-22 11:52:16,Returned,Cash,Canada
+132,1073,P102,Mouse,Accessories,430,1,2023-10-11 15:34:39,2023-10-13 15:34:39,Pending,Debit Card,UK
+133,1032,P106,Desk,Electronics,1749,3,2023-02-20 07:10:11,2023-02-25 07:10:11,Returned,PayPal,Australia
+134,1056,P110,Mouse,Electronics,625,5,2023-03-17 20:16:54,2023-03-21 20:16:54,Cancelled,Debit Card,Germany
+135,1079,P106,Desk,Furniture,968,4,2023-12-19 07:51:22,2023-12-27 07:51:22,Pending,PayPal,USA
+136,1084,P102,Phone,Electronics,682,2,2023-01-13 06:56:27,2023-01-21 06:56:27,Pending,PayPal,France
+137,1003,P110,Camera,Accessories,1538,4,2023-11-02 11:57:16,2023-11-12 11:57:16,Shipped,Credit Card,USA
+138,1012,P110,Laptop,Accessories,1536,5,2023-03-09 13:40:08,2023-03-23 13:40:08,Returned,Credit Card,USA
+139,1091,P109,Monitor,Accessories,85,4,2023-11-24 08:58:24,2023-12-01 08:58:24,Cancelled,Credit Card,Australia
+140,1022,P104,Tablet,Furniture,1603,2,2023-07-19 22:18:24,2023-07-21 22:18:24,Shipped,Credit Card,France
+141,1037,P110,Chair,Accessories,273,1,2023-10-03 19:30:08,2023-10-12 19:30:08,Shipped,Credit Card,USA
+142,1089,P102,Monitor,Electronics,109,3,2023-06-14 11:23:40,2023-06-28 11:23:40,Shipped,Credit Card,UK
+143,1067,P109,Laptop,Accessories,289,2,2023-10-04 14:38:13,2023-10-10 14:38:13,Shipped,Cash,UK
+144,1064,P103,Desk,Accessories,324,2,2023-04-30 20:39:02,2023-05-09 20:39:02,Cancelled,Cash,Germany
+145,1073,P101,Desk,Furniture,26,3,2023-06-15 22:35:12,2023-06-22 22:35:12,Pending,PayPal,France
+146,1097,P103,Mouse,Electronics,1313,4,2023-11-29 23:39:30,2023-12-04 23:39:30,Shipped,Credit Card,USA
+147,1099,P108,Camera,Accessories,1424,4,2023-01-14 13:50:32,2023-01-17 13:50:32,Pending,Cash,Canada
+148,1078,P101,Laptop,Accessories,406,3,2023-02-02 17:15:04,2023-02-14 17:15:04,Shipped,PayPal,Germany
+149,1028,P105,Headphones,Electronics,367,1,2023-09-21 23:47:00,2023-10-04 23:47:00,Pending,Cash,Australia
+150,1061,P110,Desk,Furniture,932,4,2023-10-16 07:56:32,2023-10-18 07:56:32,Pending,PayPal,Australia
+151,1092,P109,Phone,Accessories,47,5,2023-06-09 04:07:02,2023-06-13 04:07:02,Pending,Cash,USA
+152,1091,P109,Monitor,Furniture,747,5,2023-06-10 01:46:24,2023-06-22 01:46:24,Cancelled,Cash,Canada
+153,1018,P103,Phone,Accessories,1609,3,2023-07-18 15:37:49,2023-07-22 15:37:49,Cancelled,Cash,Canada
+154,1077,P103,Mouse,Electronics,1479,4,2023-07-24 01:35:16,2023-07-30 01:35:16,Returned,Cash,UK
+155,1055,P104,Tablet,Electronics,1317,2,2023-09-16 21:16:24,2023-09-24 21:16:24,Shipped,Credit Card,Germany
+156,1020,P110,Chair,Electronics,1902,2,2023-07-24 23:58:34,2023-08-05 23:58:34,Shipped,PayPal,Canada
+157,1041,P110,Headphones,Furniture,548,2,2023-11-25 12:48:51,2023-12-01 12:48:51,Shipped,Debit Card,France
+158,1005,P104,Phone,Accessories,812,1,2023-01-31 22:27:48,2023-02-15 22:27:48,Shipped,PayPal,UK
+159,1092,P106,Laptop,Furniture,998,1,2023-05-16 03:43:24,2023-05-18 03:43:24,Shipped,Cash,France
+160,1085,P105,Keyboard,Electronics,281,4,2023-04-18 21:34:30,2023-04-23 21:34:30,Cancelled,Cash,Canada
+161,1077,P101,Mouse,Accessories,1546,5,2023-06-18 08:51:37,2023-07-03 08:51:37,Pending,Credit Card,UK
+162,1005,P107,Headphones,Electronics,1160,2,2023-06-19 15:40:50,2023-06-28 15:40:50,Shipped,PayPal,Australia
+163,1002,P101,Laptop,Electronics,1380,4,2023-03-17 18:36:06,2023-03-28 18:36:06,Shipped,PayPal,UK
+164,1061,P104,Chair,Furniture,897,3,2023-02-22 01:59:46,2023-02-24 01:59:46,Shipped,PayPal,Germany
+165,1012,P101,Monitor,Electronics,1544,1,2023-02-20 06:40:56,2023-02-28 06:40:56,Returned,Credit Card,Canada
+166,1034,P101,Chair,Electronics,1599,1,2023-09-08 17:31:09,2023-09-20 17:31:09,Cancelled,PayPal,Germany
+167,1077,P101,Desk,Accessories,1370,5,2023-04-20 02:39:44,2023-04-28 02:39:44,Returned,PayPal,USA
+168,1084,P107,Desk,Electronics,936,3,2023-12-29 11:19:08,2024-01-01 11:19:08,Returned,PayPal,Canada
+169,1025,P107,Keyboard,Electronics,1201,3,2023-06-24 07:56:43,2023-07-03 07:56:43,Shipped,Cash,USA
+170,1020,P107,Headphones,Accessories,1854,5,2023-07-23 05:46:36,2023-07-30 05:46:36,Returned,PayPal,USA
+171,1094,P107,Desk,Accessories,944,3,2023-09-12 02:00:27,2023-09-18 02:00:27,Returned,Cash,Germany
+172,1074,P103,Headphones,Electronics,257,5,2023-11-17 23:19:04,2023-11-21 23:19:04,Shipped,Cash,France
+173,1085,P105,Mouse,Furniture,844,1,2023-10-17 17:44:03,2023-11-01 17:44:03,Returned,Cash,Germany
+174,1090,P108,Chair,Electronics,1582,2,2023-04-27 19:02:15,2023-05-09 19:02:15,Returned,Credit Card,France
+175,1024,P107,Tablet,Electronics,1049,2,2023-09-07 14:48:24,2023-09-13 14:48:24,Pending,PayPal,France
+176,1054,P103,Phone,Electronics,538,4,2023-05-19 21:27:36,2023-06-03 21:27:36,Cancelled,Credit Card,Australia
+177,1068,P110,Camera,Electronics,225,2,2023-11-23 07:49:53,2023-12-07 07:49:53,Cancelled,Debit Card,UK
+178,1049,P105,Chair,Furniture,92,1,2023-07-09 17:45:33,2023-07-20 17:45:33,Pending,Credit Card,France
+179,1044,P102,Mouse,Accessories,146,2,2023-06-14 17:52:43,2023-06-21 17:52:43,Pending,Credit Card,Germany
+180,1058,P107,Desk,Accessories,1401,3,2023-08-16 07:25:29,2023-08-30 07:25:29,Returned,Cash,France
+181,1040,P105,Phone,Accessories,1714,3,2023-03-26 17:07:24,2023-04-06 17:07:24,Shipped,Cash,UK
+182,1029,P109,Laptop,Accessories,971,4,2023-07-22 21:08:35,2023-08-02 21:08:35,Returned,PayPal,USA
+183,1022,P110,Tablet,Furniture,1124,4,2023-09-30 20:37:01,2023-10-12 20:37:01,Pending,PayPal,Canada
+184,1056,P108,Keyboard,Electronics,69,1,2023-04-19 07:56:45,2023-05-02 07:56:45,Shipped,Credit Card,UK
+185,1044,P108,Chair,Accessories,1300,1,2023-12-04 06:01:46,2023-12-13 06:01:46,Cancelled,PayPal,Australia
+186,1075,P101,Tablet,Furniture,1133,1,2023-01-08 08:38:34,2023-01-17 08:38:34,Cancelled,Credit Card,UK
+187,1099,P102,Mouse,Furniture,104,5,2023-10-12 15:25:54,2023-10-14 15:25:54,Pending,Cash,Canada
+188,1074,P108,Phone,Accessories,108,2,2023-01-08 19:55:04,2023-01-14 19:55:04,Returned,Credit Card,Canada
+189,1009,P107,Tablet,Accessories,1133,1,2023-09-23 23:36:25,2023-09-27 23:36:25,Returned,Credit Card,Germany
+190,1021,P101,Phone,Electronics,349,5,2023-08-18 22:32:37,2023-08-26 22:32:37,Shipped,Cash,Canada
+191,1028,P110,Keyboard,Accessories,292,4,2023-08-30 10:39:50,2023-09-06 10:39:50,Cancelled,Cash,France
+192,1037,P109,Tablet,Furniture,1134,3,2023-03-15 21:20:15,2023-03-19 21:20:15,Shipped,Cash,Germany
+193,1010,P104,Monitor,Accessories,1740,1,2023-04-19 23:32:33,2023-04-29 23:32:33,Pending,Credit Card,UK
+194,1030,P109,Camera,Furniture,109,1,2023-03-10 01:52:43,2023-03-23 01:52:43,Pending,PayPal,Canada
+195,1031,P106,Phone,Furniture,1702,3,2023-01-01 02:13:11,2023-01-05 02:13:11,Pending,PayPal,Australia
+196,1093,P108,Monitor,Electronics,1980,4,2023-02-25 08:28:41,2023-03-03 08:28:41,Returned,Debit Card,France
+197,1099,P108,Monitor,Furniture,1048,3,2023-03-07 14:27:59,2023-03-13 14:27:59,Cancelled,Cash,Australia
+198,1005,P107,Headphones,Electronics,160,3,2023-04-24 19:30:29,2023-05-07 19:30:29,Cancelled,PayPal,UK
+199,1071,P105,Tablet,Electronics,1142,5,2023-12-28 21:41:14,2024-01-07 21:41:14,Shipped,Cash,USA
+200,1049,P102,Camera,Electronics,1782,2,2023-03-14 21:40:34,2023-03-19 21:40:34,Returned,Cash,France
+201,1004,P109,Headphones,Accessories,727,3,2023-03-07 19:29:56,2023-03-21 19:29:56,Pending,Credit Card,USA
+202,1085,P107,Camera,Furniture,1330,3,2023-10-29 22:05:34,2023-11-01 22:05:34,Cancelled,PayPal,USA
+203,1017,P103,Laptop,Furniture,1111,3,2023-10-26 09:52:33,2023-10-29 09:52:33,Shipped,Cash,USA
+204,1098,P101,Phone,Electronics,976,1,2023-10-12 13:01:49,2023-10-18 13:01:49,Pending,Debit Card,Canada
+205,1037,P104,Headphones,Electronics,184,5,2023-12-04 01:55:22,2023-12-15 01:55:22,Pending,Credit Card,USA
+206,1065,P102,Tablet,Furniture,378,2,2023-12-14 06:03:17,2023-12-25 06:03:17,Cancelled,Cash,USA
+207,1043,P110,Desk,Accessories,1239,3,2023-06-30 11:34:03,2023-07-03 11:34:03,Pending,PayPal,Canada
+208,1018,P106,Tablet,Electronics,846,3,2023-06-15 23:57:53,2023-06-29 23:57:53,Returned,PayPal,Canada
+209,1076,P102,Tablet,Electronics,1997,3,2023-01-02 20:25:44,2023-01-05 20:25:44,Returned,Debit Card,USA
+210,1013,P106,Camera,Electronics,1195,5,2023-09-05 06:28:03,2023-09-10 06:28:03,Cancelled,Debit Card,Germany
+211,1094,P107,Mouse,Furniture,454,2,2023-09-02 00:22:50,2023-09-15 00:22:50,Pending,PayPal,Canada
+212,1013,P104,Chair,Furniture,242,5,2023-02-09 21:26:30,2023-02-16 21:26:30,Pending,Debit Card,Australia
+213,1019,P106,Laptop,Accessories,1401,5,2023-08-13 18:10:39,2023-08-16 18:10:39,Shipped,Credit Card,UK
+214,1068,P107,Tablet,Electronics,1189,2,2023-11-19 23:07:28,2023-11-29 23:07:28,Cancelled,Credit Card,Germany
+215,1045,P107,Desk,Electronics,131,2,2023-06-18 19:24:08,2023-06-29 19:24:08,Pending,Cash,Canada
+216,1043,P109,Laptop,Accessories,823,5,2023-03-26 22:28:22,2023-03-31 22:28:22,Pending,Cash,Australia
+217,1003,P105,Mouse,Furniture,1320,1,2023-05-14 13:57:15,2023-05-28 13:57:15,Returned,Cash,Germany
+218,1007,P110,Monitor,Furniture,661,2,2023-06-18 10:58:39,2023-06-26 10:58:39,Pending,PayPal,Canada
+219,1013,P102,Monitor,Furniture,1891,2,2023-11-04 06:48:28,2023-11-13 06:48:28,Shipped,Cash,Canada
+220,1051,P109,Mouse,Accessories,1446,1,2023-07-26 06:32:59,2023-08-06 06:32:59,Returned,Debit Card,France
+221,1030,P104,Mouse,Furniture,958,2,2023-05-22 22:24:56,2023-05-28 22:24:56,Returned,Debit Card,Canada
+222,1024,P107,Keyboard,Accessories,782,3,2023-01-25 21:55:21,2023-02-09 21:55:21,Pending,Cash,France
+223,1086,P106,Desk,Electronics,505,4,2023-02-22 02:57:58,2023-03-07 02:57:58,Pending,Debit Card,UK
+224,1085,P109,Tablet,Electronics,1188,4,2023-02-01 05:56:59,2023-02-15 05:56:59,Returned,PayPal,USA
+225,1064,P107,Desk,Electronics,1789,3,2023-06-13 13:51:08,2023-06-15 13:51:08,Returned,PayPal,UK
+226,1071,P110,Monitor,Electronics,195,4,2023-02-28 21:49:01,2023-03-11 21:49:01,Cancelled,PayPal,Australia
+227,1082,P108,Headphones,Electronics,861,5,2023-10-27 06:55:06,2023-10-29 06:55:06,Returned,Debit Card,UK
+228,1022,P105,Headphones,Accessories,431,3,2023-11-11 12:01:41,2023-11-24 12:01:41,Shipped,Credit Card,UK
+229,1056,P101,Monitor,Furniture,1167,3,2023-10-06 03:16:44,2023-10-08 03:16:44,Returned,Credit Card,USA
+230,1037,P105,Tablet,Electronics,758,5,2023-08-05 23:31:52,2023-08-12 23:31:52,Returned,Cash,UK
+231,1008,P102,Monitor,Electronics,1708,4,2023-04-07 09:32:25,2023-04-18 09:32:25,Pending,PayPal,Canada
+232,1010,P104,Headphones,Electronics,1735,5,2023-06-13 09:38:49,2023-06-15 09:38:49,Pending,PayPal,Germany
+233,1053,P102,Camera,Electronics,662,2,2023-05-23 19:54:26,2023-06-05 19:54:26,Pending,Credit Card,Germany
+234,1087,P107,Keyboard,Electronics,354,5,2023-05-11 06:29:47,2023-05-15 06:29:47,Pending,Credit Card,UK
+235,1033,P101,Headphones,Electronics,1188,4,2023-12-28 19:46:47,2024-01-01 19:46:47,Pending,Cash,UK
+236,1031,P106,Mouse,Furniture,407,1,2023-11-12 12:19:19,2023-11-21 12:19:19,Pending,Debit Card,USA
+237,1030,P102,Desk,Electronics,649,1,2023-08-27 13:52:01,2023-09-06 13:52:01,Cancelled,PayPal,Canada
+238,1088,P110,Desk,Furniture,326,5,2023-02-05 22:12:53,2023-02-13 22:12:53,Shipped,Credit Card,USA
+239,1018,P101,Monitor,Accessories,1281,3,2023-04-15 10:59:24,2023-04-22 10:59:24,Cancelled,PayPal,France
+240,1073,P109,Monitor,Furniture,298,5,2023-01-10 17:19:48,2023-01-21 17:19:48,Shipped,Credit Card,France
+241,1017,P106,Desk,Electronics,52,4,2023-10-30 16:00:21,2023-11-08 16:00:21,Returned,PayPal,UK
+242,1077,P104,Tablet,Furniture,107,2,2023-10-24 13:49:40,2023-11-06 13:49:40,Returned,Credit Card,Canada
+243,1010,P101,Phone,Electronics,398,1,2023-05-26 18:32:57,2023-06-09 18:32:57,Shipped,Debit Card,Australia
+244,1011,P106,Keyboard,Accessories,655,5,2023-04-09 01:04:56,2023-04-16 01:04:56,Cancelled,PayPal,Germany
+245,1070,P110,Keyboard,Accessories,902,2,2023-03-29 10:40:56,2023-04-09 10:40:56,Returned,Credit Card,USA
+246,1003,P102,Monitor,Electronics,1719,5,2023-12-26 18:12:12,2024-01-05 18:12:12,Cancelled,Credit Card,USA
+247,1091,P109,Tablet,Electronics,1022,1,2023-11-22 04:28:20,2023-12-02 04:28:20,Shipped,Cash,France
+248,1018,P101,Camera,Accessories,1959,1,2023-12-08 20:02:58,2023-12-20 20:02:58,Shipped,PayPal,Canada
+249,1096,P106,Chair,Furniture,1088,3,2023-10-12 21:16:08,2023-10-24 21:16:08,Pending,Cash,UK
+250,1049,P102,Camera,Furniture,1104,4,2023-05-03 13:38:22,2023-05-16 13:38:22,Pending,PayPal,Australia
+251,1009,P105,Tablet,Accessories,645,2,2023-11-22 08:51:40,2023-12-04 08:51:40,Pending,Cash,USA
+252,1073,P108,Tablet,Electronics,57,2,2023-10-16 20:03:21,2023-10-28 20:03:21,Returned,Cash,Australia
+253,1027,P107,Laptop,Electronics,1620,1,2023-05-03 08:27:40,2023-05-14 08:27:40,Returned,Debit Card,USA
+254,1079,P110,Laptop,Electronics,1126,3,2023-06-04 15:32:33,2023-06-15 15:32:33,Cancelled,PayPal,USA
+255,1040,P107,Laptop,Furniture,32,5,2023-01-30 18:19:15,2023-02-08 18:19:15,Cancelled,Credit Card,Canada
+256,1008,P102,Camera,Accessories,1588,2,2023-10-29 02:50:04,2023-11-08 02:50:04,Cancelled,PayPal,Australia
+257,1040,P104,Monitor,Accessories,364,4,2023-05-31 06:13:44,2023-06-05 06:13:44,Pending,Cash,Australia
+258,1059,P108,Monitor,Electronics,1491,5,2023-07-20 04:21:49,2023-08-01 04:21:49,Pending,Debit Card,France
+259,1076,P105,Headphones,Furniture,1669,4,2023-08-18 18:54:37,2023-08-25 18:54:37,Cancelled,PayPal,Canada
+260,1050,P105,Tablet,Accessories,1427,4,2023-03-10 23:35:47,2023-03-25 23:35:47,Shipped,Cash,France
+261,1020,P108,Headphones,Furniture,1390,2,2023-03-01 13:52:16,2023-03-03 13:52:16,Pending,Credit Card,USA
+262,1088,P104,Monitor,Accessories,122,2,2023-05-11 08:56:06,2023-05-19 08:56:06,Cancelled,Debit Card,USA
+263,1085,P104,Laptop,Furniture,1541,1,2023-07-13 04:40:17,2023-07-23 04:40:17,Shipped,PayPal,Australia
+264,1018,P103,Camera,Furniture,923,5,2023-11-08 09:43:43,2023-11-13 09:43:43,Cancelled,Debit Card,UK
+265,1021,P101,Keyboard,Furniture,1146,2,2023-12-25 13:05:42,2023-12-30 13:05:42,Shipped,Credit Card,UK
+266,1071,P102,Mouse,Electronics,1069,1,2023-10-29 08:45:38,2023-11-13 08:45:38,Pending,Credit Card,Canada
+267,1017,P110,Monitor,Accessories,371,3,2023-11-25 21:27:57,2023-12-01 21:27:57,Pending,Debit Card,Germany
+268,1080,P103,Laptop,Electronics,1005,1,2023-02-07 15:03:18,2023-02-13 15:03:18,Cancelled,Credit Card,France
+269,1050,P110,Tablet,Furniture,601,1,2023-06-12 10:32:51,2023-06-20 10:32:51,Returned,Cash,Australia
+270,1028,P103,Keyboard,Furniture,1502,1,2023-05-10 07:12:29,2023-05-16 07:12:29,Shipped,PayPal,France
+271,1005,P101,Monitor,Electronics,1708,1,2023-10-19 05:53:29,2023-11-03 05:53:29,Shipped,Credit Card,Germany
+272,1053,P106,Chair,Electronics,1623,1,2023-09-01 21:52:12,2023-09-12 21:52:12,Shipped,Cash,Germany
+273,1052,P101,Laptop,Accessories,1733,1,2023-08-30 18:17:31,2023-09-10 18:17:31,Pending,Cash,UK
+274,1053,P109,Headphones,Accessories,654,3,2023-10-22 15:13:54,2023-11-05 15:13:54,Cancelled,Credit Card,UK
+275,1018,P102,Tablet,Furniture,1458,3,2023-10-27 05:47:01,2023-11-06 05:47:01,Returned,PayPal,USA
+276,1015,P107,Monitor,Electronics,1851,1,2023-02-19 04:52:41,2023-03-04 04:52:41,Returned,PayPal,Canada
+277,1097,P109,Chair,Electronics,859,3,2023-06-02 13:18:17,2023-06-07 13:18:17,Cancelled,Debit Card,UK
+278,1051,P101,Chair,Electronics,246,3,2023-11-25 12:58:04,2023-12-04 12:58:04,Cancelled,Credit Card,Canada
+279,1060,P104,Keyboard,Accessories,570,2,2023-04-07 14:55:03,2023-04-11 14:55:03,Pending,PayPal,Germany
+280,1017,P106,Chair,Accessories,1791,3,2023-07-05 01:59:12,2023-07-14 01:59:12,Shipped,Debit Card,France
+281,1018,P101,Tablet,Accessories,573,4,2023-08-05 12:11:15,2023-08-12 12:11:15,Pending,Debit Card,USA
+282,1058,P101,Keyboard,Furniture,515,2,2023-01-14 14:57:05,2023-01-26 14:57:05,Pending,PayPal,USA
+283,1011,P107,Phone,Furniture,1799,3,2023-02-19 14:00:51,2023-02-21 14:00:51,Returned,Debit Card,Canada
+284,1029,P105,Monitor,Accessories,1207,2,2023-07-23 05:06:55,2023-08-07 05:06:55,Pending,Cash,Germany
+285,1036,P102,Tablet,Electronics,1460,5,2023-07-23 03:24:49,2023-08-03 03:24:49,Cancelled,Debit Card,Australia
+286,1068,P104,Laptop,Electronics,487,4,2023-11-20 09:57:44,2023-11-30 09:57:44,Cancelled,PayPal,UK
+287,1009,P101,Desk,Furniture,214,2,2023-08-21 10:50:39,2023-08-29 10:50:39,Shipped,Credit Card,USA
+288,1019,P109,Headphones,Furniture,1045,4,2023-07-05 08:36:14,2023-07-10 08:36:14,Shipped,Credit Card,Australia
+289,1100,P110,Desk,Furniture,1922,5,2023-01-22 05:18:15,2023-01-25 05:18:15,Pending,PayPal,Canada
+290,1041,P108,Chair,Accessories,1716,5,2023-06-01 07:16:23,2023-06-14 07:16:23,Returned,Debit Card,France
+291,1006,P110,Laptop,Furniture,83,4,2023-01-04 08:38:11,2023-01-08 08:38:11,Shipped,Cash,Germany
+292,1056,P101,Laptop,Electronics,1277,1,2023-06-04 08:43:29,2023-06-09 08:43:29,Returned,Credit Card,Australia
+293,1011,P108,Keyboard,Accessories,172,4,2023-09-21 18:48:58,2023-10-02 18:48:58,Returned,PayPal,France
+294,1055,P110,Phone,Accessories,1998,4,2023-08-27 07:34:44,2023-08-30 07:34:44,Returned,PayPal,Germany
+295,1022,P107,Tablet,Electronics,1557,5,2023-12-17 07:16:43,2023-12-29 07:16:43,Shipped,Cash,Australia
+296,1054,P105,Keyboard,Furniture,1655,3,2023-03-14 06:49:20,2023-03-17 06:49:20,Pending,Credit Card,UK
+297,1014,P105,Keyboard,Accessories,1444,4,2023-02-17 13:14:28,2023-02-22 13:14:28,Cancelled,Credit Card,USA
+298,1088,P101,Monitor,Accessories,36,2,2023-05-20 11:32:51,2023-05-26 11:32:51,Pending,Debit Card,Canada
+299,1077,P104,Camera,Electronics,1078,4,2023-01-22 05:23:16,2023-01-27 05:23:16,Pending,PayPal,Germany
+300,1007,P101,Laptop,Accessories,610,4,2023-12-25 02:04:09,2024-01-03 02:04:09,Cancelled,Debit Card,France
+301,1090,P104,Mouse,Accessories,202,4,2023-09-22 04:58:09,2023-09-28 04:58:09,Returned,Debit Card,Australia
+302,1093,P106,Desk,Electronics,1056,5,2023-02-22 07:16:13,2023-03-05 07:16:13,Returned,Cash,France
+303,1079,P106,Laptop,Electronics,1993,5,2023-07-20 08:34:22,2023-08-02 08:34:22,Cancelled,PayPal,Germany
+304,1020,P103,Tablet,Electronics,1740,3,2023-08-15 01:16:23,2023-08-26 01:16:23,Returned,Cash,Australia
+305,1010,P110,Tablet,Electronics,1912,2,2023-12-02 12:08:07,2023-12-04 12:08:07,Pending,PayPal,Canada
+306,1085,P104,Monitor,Furniture,200,2,2023-02-15 06:56:47,2023-02-24 06:56:47,Cancelled,Credit Card,France
+307,1060,P106,Phone,Electronics,1443,5,2023-11-22 02:32:06,2023-12-04 02:32:06,Shipped,PayPal,Canada
+308,1031,P104,Keyboard,Furniture,1223,4,2023-03-17 11:19:15,2023-03-20 11:19:15,Returned,Cash,UK
+309,1034,P102,Headphones,Furniture,270,1,2023-06-05 05:07:56,2023-06-15 05:07:56,Pending,Cash,Canada
+310,1085,P109,Phone,Electronics,519,4,2023-01-08 23:11:02,2023-01-16 23:11:02,Cancelled,Cash,Australia
+311,1012,P105,Monitor,Furniture,1089,4,2023-03-25 16:17:45,2023-04-07 16:17:45,Pending,Debit Card,UK
+312,1028,P107,Tablet,Accessories,1017,5,2023-08-01 05:10:22,2023-08-11 05:10:22,Shipped,Credit Card,Australia
+313,1023,P101,Mouse,Furniture,1821,1,2023-02-20 23:47:37,2023-03-02 23:47:37,Pending,Debit Card,USA
+314,1059,P103,Desk,Accessories,1057,3,2023-03-18 16:37:39,2023-04-01 16:37:39,Shipped,PayPal,Australia
+315,1053,P107,Phone,Electronics,1910,5,2023-12-14 21:59:30,2023-12-28 21:59:30,Pending,Credit Card,Canada
+316,1034,P102,Desk,Electronics,74,2,2023-12-13 04:06:39,2023-12-19 04:06:39,Cancelled,Cash,Germany
+317,1044,P105,Keyboard,Electronics,655,1,2023-02-25 00:45:46,2023-03-08 00:45:46,Returned,PayPal,France
+318,1013,P101,Laptop,Furniture,278,3,2023-03-03 08:47:17,2023-03-15 08:47:17,Cancelled,PayPal,Germany
+319,1015,P101,Mouse,Electronics,869,2,2023-05-12 21:40:06,2023-05-14 21:40:06,Cancelled,Cash,UK
+320,1090,P103,Laptop,Electronics,981,1,2023-12-04 02:31:52,2023-12-15 02:31:52,Shipped,Credit Card,Australia
+321,1074,P110,Headphones,Furniture,319,1,2023-11-28 04:10:27,2023-12-06 04:10:27,Shipped,Credit Card,Germany
+322,1042,P103,Mouse,Accessories,1836,3,2023-12-21 01:52:34,2023-12-29 01:52:34,Cancelled,Credit Card,USA
+323,1091,P106,Phone,Accessories,1249,2,2023-11-10 04:01:48,2023-11-13 04:01:48,Pending,Debit Card,Canada
+324,1079,P110,Monitor,Electronics,1542,2,2023-12-19 14:36:12,2023-12-29 14:36:12,Returned,PayPal,USA
+325,1098,P109,Phone,Electronics,1407,5,2023-09-25 07:13:52,2023-10-07 07:13:52,Returned,PayPal,UK
+326,1071,P108,Chair,Furniture,44,1,2023-07-03 10:08:53,2023-07-11 10:08:53,Cancelled,Cash,UK
+327,1033,P110,Laptop,Accessories,1156,3,2023-04-03 01:32:13,2023-04-06 01:32:13,Cancelled,PayPal,USA
+328,1008,P102,Phone,Furniture,1835,2,2023-02-25 22:50:03,2023-03-10 22:50:03,Cancelled,PayPal,Germany
+329,1028,P104,Phone,Furniture,995,1,2023-07-08 03:23:00,2023-07-20 03:23:00,Returned,Debit Card,USA
+330,1003,P102,Laptop,Accessories,685,5,2023-03-09 12:11:35,2023-03-12 12:11:35,Returned,Cash,Germany
+331,1039,P108,Desk,Furniture,269,1,2023-02-13 07:16:07,2023-02-26 07:16:07,Pending,Debit Card,UK
+332,1027,P107,Desk,Accessories,1601,5,2023-07-06 12:47:32,2023-07-10 12:47:32,Pending,Credit Card,France
+333,1047,P106,Tablet,Furniture,498,3,2023-05-24 17:19:01,2023-06-04 17:19:01,Pending,Credit Card,Canada
+334,1036,P110,Phone,Furniture,208,3,2023-02-19 07:09:45,2023-02-28 07:09:45,Shipped,Cash,Australia
+335,1091,P107,Monitor,Electronics,799,4,2023-04-10 21:18:39,2023-04-18 21:18:39,Returned,Cash,Germany
+336,1049,P109,Desk,Electronics,39,2,2023-10-20 06:42:42,2023-10-31 06:42:42,Pending,Debit Card,Canada
+337,1000,P108,Phone,Electronics,444,5,2023-05-23 17:17:44,2023-05-30 17:17:44,Pending,Cash,Australia
+338,1015,P103,Tablet,Electronics,1902,3,2023-07-15 07:56:20,2023-07-20 07:56:20,Cancelled,Credit Card,USA
+339,1046,P105,Monitor,Electronics,716,2,2023-04-02 05:04:48,2023-04-16 05:04:48,Cancelled,Credit Card,Australia
+340,1064,P110,Laptop,Accessories,669,5,2023-08-12 13:19:15,2023-08-22 13:19:15,Shipped,Cash,UK
+341,1071,P109,Desk,Furniture,1174,3,2023-06-17 18:50:21,2023-06-20 18:50:21,Returned,Credit Card,Canada
+342,1002,P106,Chair,Electronics,83,3,2023-02-14 02:28:40,2023-02-16 02:28:40,Returned,PayPal,Australia
+343,1006,P102,Phone,Accessories,1329,1,2023-12-24 00:14:09,2024-01-07 00:14:09,Returned,Credit Card,Australia
+344,1096,P110,Headphones,Furniture,1913,3,2023-05-30 16:00:52,2023-06-04 16:00:52,Pending,Cash,France
+345,1051,P106,Laptop,Accessories,1972,2,2023-12-25 08:41:31,2024-01-03 08:41:31,Pending,Cash,Australia
+346,1034,P109,Chair,Accessories,1953,4,2023-12-10 01:02:13,2023-12-17 01:02:13,Returned,Debit Card,USA
+347,1020,P110,Keyboard,Electronics,1333,2,2023-12-17 21:26:40,2023-12-19 21:26:40,Cancelled,Credit Card,Germany
+348,1004,P101,Mouse,Electronics,587,4,2023-01-11 01:24:55,2023-01-26 01:24:55,Cancelled,Debit Card,USA
+349,1042,P105,Mouse,Accessories,864,1,2023-10-25 08:31:42,2023-10-27 08:31:42,Shipped,Debit Card,UK
+350,1099,P103,Monitor,Electronics,564,1,2023-06-03 05:59:55,2023-06-06 05:59:55,Returned,Credit Card,Canada
+351,1014,P108,Laptop,Electronics,372,5,2023-10-12 13:54:40,2023-10-16 13:54:40,Returned,Cash,Australia
+352,1040,P110,Camera,Electronics,33,5,2023-04-27 04:35:21,2023-05-07 04:35:21,Cancelled,PayPal,USA
+353,1062,P104,Laptop,Furniture,1119,2,2023-05-16 06:04:06,2023-05-29 06:04:06,Pending,Debit Card,Australia
+354,1081,P109,Keyboard,Electronics,1573,5,2023-08-06 23:48:07,2023-08-19 23:48:07,Pending,Debit Card,Germany
+355,1015,P107,Laptop,Accessories,1920,2,2023-11-22 17:51:07,2023-11-28 17:51:07,Cancelled,Debit Card,Canada
+356,1039,P103,Tablet,Furniture,1157,2,2023-03-05 22:45:24,2023-03-20 22:45:24,Returned,PayPal,Australia
+357,1073,P105,Laptop,Accessories,1216,5,2023-05-08 16:54:15,2023-05-19 16:54:15,Pending,Credit Card,Canada
+358,1000,P107,Tablet,Electronics,1518,2,2023-08-31 03:44:57,2023-09-14 03:44:57,Returned,PayPal,France
+359,1021,P105,Headphones,Electronics,1781,1,2023-01-11 17:12:31,2023-01-21 17:12:31,Returned,Debit Card,France
+360,1098,P110,Laptop,Electronics,519,4,2023-03-23 15:28:07,2023-03-27 15:28:07,Shipped,PayPal,UK
+361,1081,P103,Chair,Accessories,1702,5,2023-02-02 05:07:56,2023-02-04 05:07:56,Pending,PayPal,Australia
+362,1001,P104,Headphones,Furniture,27,5,2023-02-16 20:45:31,2023-02-25 20:45:31,Shipped,Cash,Australia
+363,1009,P107,Desk,Furniture,1874,4,2023-07-02 02:32:28,2023-07-17 02:32:28,Returned,Cash,Germany
+364,1031,P108,Keyboard,Accessories,773,4,2023-11-07 08:54:19,2023-11-16 08:54:19,Returned,Debit Card,France
+365,1093,P101,Keyboard,Furniture,635,1,2023-08-01 01:02:35,2023-08-04 01:02:35,Returned,Cash,UK
+366,1077,P109,Keyboard,Furniture,720,2,2023-12-18 00:49:49,2023-12-24 00:49:49,Returned,Cash,USA
+367,1016,P103,Laptop,Electronics,146,5,2023-02-05 20:39:44,2023-02-10 20:39:44,Shipped,PayPal,UK
+368,1017,P103,Monitor,Electronics,1274,4,2023-02-26 08:03:16,2023-03-02 08:03:16,Pending,Cash,Canada
+369,1087,P103,Phone,Electronics,1538,4,2023-07-21 13:47:24,2023-07-23 13:47:24,Shipped,Credit Card,Australia
+370,1039,P102,Camera,Furniture,1923,3,2023-09-05 23:16:22,2023-09-09 23:16:22,Cancelled,Credit Card,UK
+371,1092,P110,Monitor,Electronics,1842,1,2023-02-27 20:39:55,2023-03-13 20:39:55,Cancelled,Cash,France
+372,1032,P109,Monitor,Electronics,1546,1,2023-10-16 15:34:20,2023-10-31 15:34:20,Shipped,Debit Card,Australia
+373,1001,P107,Laptop,Furniture,1109,4,2023-09-14 05:42:23,2023-09-17 05:42:23,Shipped,PayPal,Australia
+374,1005,P107,Headphones,Accessories,1277,3,2023-11-03 20:18:17,2023-11-12 20:18:17,Pending,Credit Card,UK
+375,1033,P102,Chair,Furniture,140,3,2023-05-27 15:26:56,2023-06-05 15:26:56,Cancelled,Credit Card,Canada
+376,1005,P110,Chair,Electronics,1588,3,2023-06-15 03:56:49,2023-06-20 03:56:49,Returned,Credit Card,USA
+377,1080,P105,Desk,Accessories,1345,4,2023-01-17 05:38:12,2023-02-01 05:38:12,Pending,Cash,Australia
+378,1062,P101,Laptop,Accessories,447,4,2023-07-17 21:36:16,2023-07-26 21:36:16,Cancelled,PayPal,Australia
+379,1024,P101,Tablet,Furniture,1199,3,2023-10-18 01:38:52,2023-10-30 01:38:52,Pending,PayPal,Canada
+380,1033,P101,Headphones,Accessories,662,1,2023-06-08 16:07:05,2023-06-20 16:07:05,Cancelled,Cash,France
+381,1054,P109,Phone,Furniture,1621,4,2023-10-25 19:55:00,2023-11-09 19:55:00,Returned,PayPal,France
+382,1027,P103,Tablet,Furniture,949,3,2023-07-12 18:25:26,2023-07-22 18:25:26,Pending,Credit Card,USA
+383,1079,P103,Camera,Accessories,1578,3,2023-09-01 03:45:26,2023-09-06 03:45:26,Pending,Debit Card,France
+384,1067,P102,Mouse,Accessories,1276,2,2023-12-04 14:35:15,2023-12-08 14:35:15,Pending,PayPal,UK
+385,1088,P108,Desk,Accessories,620,2,2023-07-30 14:36:59,2023-08-07 14:36:59,Returned,Credit Card,Germany
+386,1097,P106,Laptop,Furniture,53,3,2023-05-22 09:58:30,2023-06-03 09:58:30,Cancelled,Debit Card,USA
+387,1054,P107,Keyboard,Accessories,106,2,2023-01-30 20:43:59,2023-02-11 20:43:59,Cancelled,Debit Card,Canada
+388,1003,P107,Laptop,Furniture,882,3,2023-05-13 19:59:51,2023-05-21 19:59:51,Returned,Cash,Canada
+389,1031,P108,Desk,Electronics,310,2,2023-02-07 20:01:45,2023-02-21 20:01:45,Cancelled,Cash,UK
+390,1008,P108,Camera,Accessories,430,1,2023-06-08 02:35:22,2023-06-11 02:35:22,Shipped,Credit Card,France
+391,1074,P107,Camera,Electronics,1878,2,2023-08-23 09:48:13,2023-08-27 09:48:13,Pending,Debit Card,Germany
+392,1004,P102,Laptop,Furniture,1775,4,2023-05-24 11:03:22,2023-06-05 11:03:22,Returned,Cash,France
+393,1064,P109,Monitor,Accessories,189,3,2023-03-18 18:37:53,2023-03-28 18:37:53,Cancelled,Credit Card,USA
+394,1004,P106,Mouse,Furniture,118,3,2023-02-13 00:09:11,2023-02-24 00:09:11,Shipped,Cash,Canada
+395,1085,P101,Phone,Accessories,385,3,2023-02-04 16:02:02,2023-02-11 16:02:02,Cancelled,PayPal,USA
+396,1071,P107,Monitor,Electronics,644,2,2023-04-25 07:28:26,2023-05-03 07:28:26,Pending,Credit Card,UK
+397,1017,P106,Camera,Electronics,1889,5,2023-08-08 16:10:22,2023-08-17 16:10:22,Pending,Debit Card,Canada
+398,1017,P109,Laptop,Furniture,1125,5,2023-10-19 06:59:19,2023-10-21 06:59:19,Pending,Cash,Canada
+399,1022,P102,Phone,Electronics,514,3,2023-08-06 18:00:35,2023-08-13 18:00:35,Returned,Debit Card,UK
+400,1088,P107,Monitor,Accessories,1283,1,2023-01-18 15:25:12,2023-01-28 15:25:12,Returned,Debit Card,France
+401,1077,P104,Chair,Electronics,597,2,2023-01-03 00:46:24,2023-01-18 00:46:24,Returned,Cash,Canada
+402,1055,P102,Desk,Electronics,1168,1,2023-07-01 06:48:25,2023-07-16 06:48:25,Pending,PayPal,Germany
+403,1039,P104,Phone,Accessories,448,3,2023-01-01 02:42:02,2023-01-13 02:42:02,Shipped,Cash,Germany
+404,1088,P110,Headphones,Electronics,1876,5,2023-09-11 06:54:53,2023-09-26 06:54:53,Cancelled,Credit Card,Germany
+405,1033,P104,Keyboard,Furniture,171,4,2023-07-31 00:27:36,2023-08-04 00:27:36,Cancelled,Credit Card,France
+406,1085,P110,Desk,Electronics,1577,3,2023-08-25 01:07:42,2023-09-06 01:07:42,Shipped,PayPal,Germany
+407,1017,P110,Headphones,Furniture,270,3,2023-12-30 00:04:05,2024-01-02 00:04:05,Cancelled,PayPal,USA
+408,1081,P105,Keyboard,Furniture,66,5,2023-02-08 07:17:14,2023-02-10 07:17:14,Pending,PayPal,Australia
+409,1003,P107,Monitor,Electronics,693,5,2023-06-11 23:50:56,2023-06-21 23:50:56,Pending,Cash,Australia
+410,1033,P108,Keyboard,Furniture,973,1,2023-10-01 22:07:59,2023-10-12 22:07:59,Shipped,PayPal,Australia
+411,1046,P108,Headphones,Accessories,1198,5,2023-10-07 10:34:27,2023-10-14 10:34:27,Shipped,Debit Card,Australia
+412,1066,P109,Keyboard,Electronics,1371,1,2023-11-13 22:31:30,2023-11-16 22:31:30,Pending,Credit Card,Germany
+413,1035,P105,Desk,Accessories,513,3,2023-03-02 00:32:42,2023-03-09 00:32:42,Pending,PayPal,USA
+414,1075,P106,Headphones,Furniture,428,4,2023-04-12 18:33:43,2023-04-14 18:33:43,Pending,Debit Card,France
+415,1098,P108,Keyboard,Electronics,494,2,2023-09-01 05:52:59,2023-09-16 05:52:59,Cancelled,Debit Card,Australia
+416,1004,P107,Chair,Furniture,748,1,2023-03-10 02:44:27,2023-03-12 02:44:27,Pending,Cash,Canada
+417,1091,P110,Desk,Electronics,1827,4,2023-07-08 14:00:03,2023-07-20 14:00:03,Shipped,Cash,Australia
+418,1043,P110,Chair,Electronics,1826,4,2023-06-30 07:23:15,2023-07-03 07:23:15,Returned,Debit Card,France
+419,1023,P107,Tablet,Electronics,432,1,2023-12-12 16:11:10,2023-12-24 16:11:10,Cancelled,Debit Card,UK
+420,1014,P102,Mouse,Accessories,1255,1,2023-10-16 04:30:41,2023-10-22 04:30:41,Shipped,Cash,Canada
+421,1015,P101,Chair,Furniture,810,3,2023-03-07 10:54:03,2023-03-22 10:54:03,Shipped,Debit Card,Canada
+422,1001,P105,Chair,Accessories,204,2,2023-08-16 10:13:11,2023-08-23 10:13:11,Cancelled,Debit Card,Germany
+423,1034,P104,Tablet,Furniture,1745,4,2023-12-28 07:19:45,2024-01-11 07:19:45,Cancelled,Cash,France
+424,1071,P105,Camera,Accessories,1255,2,2023-06-25 21:34:30,2023-07-03 21:34:30,Pending,Credit Card,France
+425,1062,P104,Camera,Accessories,669,2,2023-07-24 05:01:04,2023-08-08 05:01:04,Pending,Credit Card,France
+426,1044,P103,Tablet,Accessories,1192,2,2023-02-03 00:51:10,2023-02-08 00:51:10,Cancelled,Debit Card,Germany
+427,1043,P110,Phone,Furniture,883,3,2023-10-14 21:22:25,2023-10-16 21:22:25,Returned,Cash,USA
+428,1094,P101,Phone,Accessories,592,1,2023-01-28 11:56:57,2023-02-03 11:56:57,Shipped,PayPal,USA
+429,1055,P106,Mouse,Electronics,1688,3,2023-12-11 03:09:38,2023-12-26 03:09:38,Shipped,Credit Card,Australia
+430,1022,P102,Monitor,Electronics,468,5,2023-11-21 08:48:08,2023-11-25 08:48:08,Pending,PayPal,Germany
+431,1008,P110,Phone,Accessories,660,5,2023-03-17 18:47:19,2023-03-21 18:47:19,Pending,Debit Card,Germany
+432,1076,P109,Headphones,Electronics,740,4,2023-01-01 22:19:55,2023-01-11 22:19:55,Pending,PayPal,USA
+433,1045,P103,Mouse,Accessories,816,1,2023-09-09 12:40:36,2023-09-12 12:40:36,Cancelled,Credit Card,UK
+434,1040,P102,Mouse,Furniture,1700,3,2023-08-19 21:33:06,2023-08-25 21:33:06,Returned,Debit Card,Germany
+435,1014,P103,Monitor,Accessories,330,1,2023-12-27 12:54:12,2024-01-01 12:54:12,Cancelled,Credit Card,USA
+436,1035,P101,Tablet,Accessories,1507,2,2023-03-05 16:13:23,2023-03-11 16:13:23,Returned,PayPal,Germany
+437,1029,P103,Mouse,Furniture,1348,5,2023-03-14 15:48:45,2023-03-19 15:48:45,Shipped,Cash,Australia
+438,1001,P106,Mouse,Accessories,824,5,2023-09-25 04:27:12,2023-10-05 04:27:12,Shipped,Cash,Canada
+439,1001,P108,Camera,Accessories,1677,2,2023-06-26 06:01:00,2023-07-08 06:01:00,Shipped,Credit Card,France
+440,1091,P108,Mouse,Accessories,1843,4,2023-10-11 13:42:53,2023-10-13 13:42:53,Cancelled,Cash,USA
+441,1021,P103,Keyboard,Furniture,1180,1,2023-09-21 17:20:51,2023-09-23 17:20:51,Shipped,PayPal,Canada
+442,1049,P102,Mouse,Furniture,1508,2,2023-11-25 06:30:30,2023-11-30 06:30:30,Cancelled,Debit Card,France
+443,1026,P105,Laptop,Furniture,934,1,2023-11-10 12:21:38,2023-11-24 12:21:38,Cancelled,PayPal,USA
+444,1004,P102,Desk,Electronics,605,3,2023-11-21 01:18:01,2023-11-26 01:18:01,Shipped,Cash,Australia
+445,1027,P102,Mouse,Furniture,1212,1,2023-06-21 15:15:13,2023-06-27 15:15:13,Shipped,PayPal,UK
+446,1054,P101,Keyboard,Furniture,623,2,2023-05-13 00:41:04,2023-05-17 00:41:04,Cancelled,Credit Card,USA
+447,1067,P108,Phone,Accessories,946,4,2023-06-03 18:50:58,2023-06-13 18:50:58,Shipped,PayPal,Australia
+448,1082,P109,Headphones,Accessories,1251,1,2023-10-18 02:10:18,2023-10-21 02:10:18,Shipped,Cash,UK
+449,1020,P101,Monitor,Electronics,1437,4,2023-03-25 02:59:33,2023-04-03 02:59:33,Pending,Credit Card,Australia
+450,1016,P108,Mouse,Accessories,877,3,2023-09-28 20:52:42,2023-10-09 20:52:42,Returned,Cash,France
+451,1089,P107,Keyboard,Furniture,1937,2,2023-01-08 05:59:54,2023-01-14 05:59:54,Shipped,Cash,Canada
+452,1062,P104,Tablet,Electronics,916,3,2023-04-03 08:21:23,2023-04-09 08:21:23,Shipped,Cash,France
+453,1089,P102,Desk,Accessories,374,1,2023-08-22 00:42:57,2023-08-24 00:42:57,Cancelled,Cash,UK
+454,1098,P109,Keyboard,Furniture,1179,2,2023-11-29 12:41:47,2023-12-12 12:41:47,Shipped,Credit Card,France
+455,1042,P108,Phone,Accessories,180,5,2023-06-06 04:45:01,2023-06-21 04:45:01,Shipped,Debit Card,USA
+456,1033,P101,Camera,Electronics,1032,2,2023-01-04 07:44:40,2023-01-17 07:44:40,Cancelled,Cash,Germany
+457,1032,P107,Camera,Accessories,1318,5,2023-12-10 08:47:47,2023-12-25 08:47:47,Pending,PayPal,UK
+458,1019,P109,Keyboard,Accessories,420,3,2023-02-10 02:09:38,2023-02-12 02:09:38,Shipped,PayPal,France
+459,1033,P104,Mouse,Furniture,1771,2,2023-07-11 10:50:38,2023-07-13 10:50:38,Cancelled,Debit Card,USA
+460,1089,P110,Phone,Furniture,1706,4,2023-10-08 16:57:12,2023-10-15 16:57:12,Cancelled,PayPal,Australia
+461,1097,P103,Chair,Furniture,884,4,2023-07-25 00:27:15,2023-08-04 00:27:15,Shipped,Debit Card,Canada
+462,1096,P102,Keyboard,Accessories,703,4,2023-06-27 03:41:46,2023-07-08 03:41:46,Pending,PayPal,France
+463,1041,P103,Chair,Electronics,745,5,2023-10-28 00:12:24,2023-11-06 00:12:24,Cancelled,Debit Card,USA
+464,1008,P101,Headphones,Accessories,1647,4,2023-04-15 08:29:28,2023-04-28 08:29:28,Shipped,Cash,USA
+465,1028,P101,Camera,Accessories,747,1,2023-04-15 01:42:46,2023-04-17 01:42:46,Shipped,PayPal,USA
+466,1060,P109,Headphones,Electronics,1255,4,2023-10-23 02:39:44,2023-10-25 02:39:44,Shipped,Debit Card,France
+467,1019,P102,Monitor,Furniture,1553,2,2023-01-13 09:10:01,2023-01-25 09:10:01,Cancelled,Debit Card,Canada
+468,1097,P105,Camera,Furniture,350,2,2023-03-19 18:43:47,2023-03-22 18:43:47,Returned,Cash,Australia
+469,1011,P102,Keyboard,Accessories,42,2,2023-03-14 04:39:31,2023-03-26 04:39:31,Shipped,Cash,Australia
+470,1013,P103,Laptop,Electronics,296,5,2023-06-20 19:45:38,2023-06-26 19:45:38,Pending,PayPal,Germany
+471,1036,P101,Headphones,Accessories,1032,4,2023-02-06 11:49:30,2023-02-15 11:49:30,Pending,Cash,Germany
+472,1062,P110,Camera,Electronics,740,5,2023-03-21 03:03:24,2023-04-05 03:03:24,Shipped,Cash,UK
+473,1058,P110,Phone,Accessories,513,2,2023-03-24 23:34:59,2023-04-05 23:34:59,Cancelled,PayPal,Germany
+474,1045,P110,Headphones,Furniture,1782,5,2023-09-25 14:11:18,2023-10-10 14:11:18,Shipped,Credit Card,Germany
+475,1002,P106,Desk,Electronics,1251,1,2023-07-01 08:13:20,2023-07-06 08:13:20,Shipped,Cash,France
+476,1096,P107,Monitor,Furniture,1567,5,2023-04-24 13:08:25,2023-05-03 13:08:25,Returned,Debit Card,Australia
+477,1073,P107,Laptop,Furniture,1666,5,2023-07-17 02:12:49,2023-07-25 02:12:49,Pending,Cash,Canada
+478,1091,P106,Laptop,Accessories,141,3,2023-06-10 19:59:45,2023-06-25 19:59:45,Pending,Cash,France
+479,1076,P103,Desk,Accessories,1893,4,2023-04-25 15:12:10,2023-05-05 15:12:10,Cancelled,Credit Card,France
+480,1080,P101,Headphones,Electronics,1243,2,2023-02-15 00:30:29,2023-02-23 00:30:29,Shipped,Cash,France
+481,1025,P106,Chair,Electronics,401,1,2023-04-03 18:36:56,2023-04-11 18:36:56,Shipped,Cash,Canada
+482,1060,P109,Monitor,Accessories,1998,1,2023-05-31 14:08:52,2023-06-12 14:08:52,Pending,Debit Card,UK
+483,1034,P108,Headphones,Electronics,475,1,2023-08-01 15:53:23,2023-08-12 15:53:23,Returned,Cash,USA
+484,1072,P104,Chair,Furniture,869,3,2023-06-10 21:14:08,2023-06-25 21:14:08,Cancelled,Cash,Canada
+485,1087,P106,Keyboard,Electronics,374,3,2023-01-09 02:05:41,2023-01-18 02:05:41,Returned,Credit Card,Canada
+486,1092,P102,Desk,Furniture,35,1,2023-03-26 04:23:36,2023-04-01 04:23:36,Shipped,PayPal,USA
+487,1008,P108,Keyboard,Electronics,1095,3,2023-07-18 04:23:36,2023-07-22 04:23:36,Returned,PayPal,Germany
+488,1020,P101,Monitor,Furniture,689,4,2023-08-19 18:36:43,2023-08-27 18:36:43,Pending,Cash,USA
+489,1014,P106,Phone,Furniture,1244,4,2023-09-10 11:37:36,2023-09-23 11:37:36,Pending,Cash,Australia
+490,1083,P105,Chair,Furniture,1245,4,2023-06-20 03:52:19,2023-06-24 03:52:19,Cancelled,Credit Card,Australia
+491,1049,P107,Monitor,Accessories,1647,4,2023-04-28 07:56:16,2023-05-01 07:56:16,Shipped,PayPal,Canada
+492,1057,P104,Monitor,Accessories,58,2,2023-04-18 20:47:49,2023-05-01 20:47:49,Cancelled,Debit Card,Australia
+493,1031,P102,Camera,Accessories,306,2,2023-03-18 17:34:31,2023-03-20 17:34:31,Shipped,PayPal,Australia
+494,1081,P103,Phone,Accessories,999,4,2023-05-07 17:04:11,2023-05-19 17:04:11,Cancelled,Cash,Germany
+495,1050,P104,Headphones,Electronics,1754,1,2023-03-19 16:20:02,2023-03-23 16:20:02,Pending,Debit Card,Australia
+496,1088,P102,Keyboard,Accessories,1995,1,2023-06-28 16:24:51,2023-07-01 16:24:51,Returned,Debit Card,Australia
+497,1046,P103,Desk,Accessories,594,5,2023-03-09 14:17:00,2023-03-15 14:17:00,Cancelled,Debit Card,UK
+498,1095,P109,Phone,Electronics,914,5,2023-02-20 13:41:42,2023-03-01 13:41:42,Returned,PayPal,Canada
+499,1023,P108,Desk,Furniture,1884,5,2023-11-15 08:57:26,2023-11-19 08:57:26,Shipped,Debit Card,France
+500,1054,P103,Keyboard,Furniture,1172,4,2023-01-24 04:03:47,2023-02-01 04:03:47,Pending,Cash,Germany
